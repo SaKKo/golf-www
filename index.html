@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PaiTeeGolf | Smart Caddy Booking Platform</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+        <style>
+        body { font-family: 'Kanit', sans-serif; background-color: #fdfdfd; scroll-behavior: smooth; }
+        .bg-golf-dark { background-color: #1a5257; }
+        .text-golf-cream { color: #f4ead5; }
+        .btn-line { background-color: #06C755; transition: all 0.3s ease; }
+        </style>
+    </head>
+    <body class="text-gray-900">
+        <header class="bg-golf-dark text-golf-cream pt-12 pb-24 px-6">
+            <nav class="container mx-auto flex justify-between items-center mb-16">
+                <img src="logo-horizontal-green.png" alt="PaiTeeGolf" class="h-10 md:h-12">
+                <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest opacity-80">
+                    <a href="#overview" class="hover:opacity-100">Overview</a>
+                    <a href="#system" class="hover:opacity-100">System</a>
+                </div>
+            </nav>
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Caddy Management Evolved.</h1>
+                <p class="text-lg md:text-xl opacity-80 max-w-2xl mx-auto mb-12">
+                    แพลตฟอร์มบริหารจัดการแค้ดดี้และระบบจองอัจฉริยะ เชื่อมต่อทุกความต้องการผ่าน Line Ecosystem
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-6">
+                    <a href="https://line.me/ti/p/@paiteegolf" class="btn-line text-white px-10 py-4 rounded-xl font-semibold shadow-2xl hover:brightness-110">
+                        LINE For Golfer
+                    </a>
+                    <a href="https://line.me/ti/p/@paiteegolfgun" class="bg-[#f4ead5] text-[#1a5257] px-10 py-4 rounded-xl font-semibold shadow-2xl hover:bg-white">
+                        LINE For Caddy
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section id="overview" class="py-24 container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12 text-center">
+                <div class="p-8">
+                    <div class="text-5xl mb-6">📱</div>
+                    <h3 class="text-2xl font-bold mb-4 text-golf-dark">Seamless Booking</h3>
+                    <p class="text-gray-500">นักกอล์ฟเลือกแค้ดดี้และเวลาผ่าน Line OA ระบบจัดการคิวและบุคกิ้งอัตโนมัติแบบ Real-time</p>
+                </div>
+                <div class="p-8 border-x border-gray-100">
+                    <div class="text-5xl mb-6">🔒</div>
+                    <h3 class="text-2xl font-bold mb-4 text-golf-dark">Secure Payment</h3>
+                    <p class="text-gray-500">ชำระทิปและค่าธรรมเนียมผ่าน Gateway ที่มั่นคง พร้อมระบบ Settlement ภายใน 1 วันทำการ</p>
+                </div>
+                <div class="p-8">
+                    <div class="text-5xl mb-6">📊</div>
+                    <h3 class="text-2xl font-bold mb-4 text-golf-dark">Full Transparency</h3>
+                    <p class="text-gray-500">สนามกอล์ฟตรวจสอบข้อมูลได้ทันที ข้อมูลตัวตนแค้ดดี้แม่นยำด้วยระบบ Verify บัตรประชาชน</p>
+                </div>
+            </div>
+        </section>
+        <section id="system" class="bg-gray-50 py-24">
+            <div class="container mx-auto px-6 max-w-5xl text-center">
+                <h2 class="text-3xl font-bold mb-12 text-golf-dark">System Logic</h2>
+                <div class="bg-white p-12 rounded-[2rem] shadow-xl border-t-8 border-golf-dark inline-block w-full">
+                    <div class="flex flex-col md:flex-row justify-around items-center gap-8">
+                        <div class="text-left">
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Pricing Structure</span>
+                            <div class="text-6xl font-bold text-golf-dark mt-2">X + Y</div>
+                            <p class="mt-4 text-gray-500">Caddy Tip (X) + Platform Fee (Y)</p>
+                        </div>
+                        <div class="h-20 w-px bg-gray-200 hidden md:block"></div>
+                        <div class="text-left space-y-3">
+                            <p class="flex items-center gap-2">✅ <span class="text-gray-600">Verified Caddy Bank Accounts</span></p>
+                            <p class="flex items-center gap-2">✅ <span class="text-gray-600">Golf Club Staff Monitoring</span></p>
+                            <p class="flex items-center gap-2">✅ <span class="text-gray-600">Automated Receipt / Credit Note</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-16 text-center">
+            <img src="logo-horizontal-green.png" alt="PaiTeeGolf" class="h-8 mx-auto mb-8 grayscale opacity-50">
+            <div class="flex justify-center space-x-6 text-sm text-gray-400 mb-8">
+                <a href="legal.html" class="hover:text-golf-dark font-semibold text-gray-600 underline">Privacy Policy & Terms of Use</a>
+            </div>
+            <p class="text-xs text-gray-400">&copy; 2026 PaiTeeGolf. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
